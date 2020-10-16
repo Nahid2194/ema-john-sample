@@ -1,9 +1,30 @@
 .cart-item {
-  text-align: center;
   display: block;
-  width: 100%;
   padding: 20px;
   margin-left: 20px;
   box-shadow: 5px 5px 5px gray;
   border-radius: 10px;
+}
+
+.total-row {
+  color: #b12704;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  border-top: 1px solid gray;
+  margin-top: 5px;
+}
+.Main-button {
+  background-color: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 200px;
+  border-radius: 10px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+}
+.count {
+  text-align: center;
 }

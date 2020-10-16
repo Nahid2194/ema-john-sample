@@ -27,12 +27,38 @@ const Cart = (props) => {
     const grandTotal = total + shipping + tax;
     return (
         <div className="cart-item">
-            <h2>Order Summary</h2>
-            <p>Items order : {cart.length}</p>
-            <p>Product Price : ${totalFormate(total)}</p>
-            <p><small>Shipping Cost : ${totalFormate(shipping)} </small></p>
-            <p>Tax + VAT : ${totalFormate(tax)}</p>
-            <h2>Total Price : ${totalFormate(grandTotal)}</h2>
+            <div className="count">
+                <h2 className="text-danger">Order Summary</h2>
+                <p>Items order :{cart.length}</p>
+            </div>
+
+            <table >
+
+                <tr>
+                    <td><p>Product Price :</p></td>
+                    <td> ${totalFormate(total)}</td>
+                </tr>
+                <tr>
+                    <td><p><small>Shipping Cost : </small></p></td>
+                    <td> ${totalFormate(shipping)}</td>
+                </tr>
+                <tr>
+                    <td><p>Tax + VAT :</p></td>
+                    <td> ${totalFormate(tax)}</td>
+                </tr>
+                <tr className="total-row">
+                    <h2>  <td>Order Total : </td>
+                        <td> ${totalFormate(grandTotal)}</td></h2>
+                </tr>
+
+            </table>
+            <div className="count">
+                <button className="Main-button">Review your order</button>
+            </div>
+
+
+
+
         </div>
     );
 };

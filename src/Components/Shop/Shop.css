@@ -9,3 +9,7 @@
 .shop-container {
   display: flex;
 }
+.cart-container {
+  display: inline-block;
+  width: 24%;
+}
