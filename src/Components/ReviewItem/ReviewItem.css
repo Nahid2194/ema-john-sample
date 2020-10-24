@@ -1,0 +1,8 @@
+.review-item {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.review-item h4 {
+  color: #0056c4;
+}

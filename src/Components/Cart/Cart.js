@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Cart.css';
 const Cart = (props) => {
     const cart = props.cart;
-    console.log(props);
+    //console.log(props);
     let total = 0;
     for (let i = 0; i < cart.length; i++) {
         const element = cart[i];
@@ -53,7 +54,7 @@ const Cart = (props) => {
 
             </table>
             <div className="count">
-                <button className="Main-button">Review your order</button>
+                <Link to="/review"><button className="Main-button">Review your order</button></Link>
             </div>
 
 
