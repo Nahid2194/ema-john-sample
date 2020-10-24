@@ -1,0 +1,9 @@
+.container h1 {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-top: 1px solid gray;
+  box-shadow: 5px 5px 5px grey;
+}

@@ -12,6 +12,10 @@
 .product-name h4 {
   color: blue;
   font-weight: 400;
+  text-decoration: none;
+}
+.product-name h4 a {
+  text-decoration: none;
 }
 .main-button {
   background-color: #f0c14b;
