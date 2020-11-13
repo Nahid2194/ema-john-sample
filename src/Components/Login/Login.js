@@ -50,6 +50,8 @@ function Login() {
                     photo: photoURL
                 }
                 setUser(signedInUser);
+                setLoggedInUser(signedInUser)
+                history.replace(from);
             })
             .catch(err => {
                 console.log(err);
